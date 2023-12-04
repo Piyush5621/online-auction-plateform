@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF  -8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>ONLINE AUCTION PLATFORM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <a href="index.html"><img src="image/indexlogo.jpg"></a>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li><a href="hh.html">REFRENCES</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" oneclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Online Auction Platform</h1>
+      <p>""Embark on a bidding adventure where every click holds the promise of winning. Uncover exclusive treasures,
+        engage in spirited <br> auctions,
+        and seize the thrill of securing extraordinary deals. Your journey to unparalleled
+        excitement begins at our online auction platform—Where Winning Moments Await!""
+      </p>
+      <button> <a href="https://youtu.be/7GMWinPHP3Q">Know why ? </a> <span></span> </button>
+    </div>
+
+    <div class="startbetting">
+      <button>
+        <p style="background-color: antiquewhite;">Start betting Today <a href="bidding.html">Click Here</a></p>
+      </button>
+    </div>
+  </section>
+
+  <section class="course">
+    <h1>Introduction</h1>
+    <p>An online auction (also electronic auction, e-auction, virtual auction, or auction) is an auction  held over the
+      internet and accessed by internet connected devices. Similar to in-person auctions,
+      online auctions come in a variety of types,
+      with different bidding and selling rules.
+      <br>
+      eCommerce sales for businesses have been steadily increasing for years, and with the migration of virtually all
+      transactions to digital due to the COVID-19 victims, worldwide sales through
+      ecommerce channels such as websites and online marketplaces increased overall in 2020 and beyond.
+      <br>
+      There are two primary markets for online auctions: business to business  (B2B) and business to consumer (B2C). B2C
+      is forecast to have over a 1% annual growth rate, achieving a nearly 22%
+      share of total global retail sales by 2024. B2B ecommerce gross merchandise value showed a similarly steady rate
+      through 2019, as to mirror its retail B2C counterpart.
+      <br>
+      The largest consumer-to-consumer online auction site is eBay which researchers suggest is popular because it is a
+      convenient, efficient, and effective method for buying and selling goods.
+      <br>
+      Despite the benefits of online auctions, the anonymity of the internet, the large market, and the ease of access
+      makes online auction fraud easier than in traditional auctions. The Federal trade commission (FTC)
+      categorizes online auction fraud reports with online shopping categories.
+
+    </p>
+    <hr>
+    <div class="collage-container">
+      <div class="collage-item">
+        <img src="image/ac2.jpg" alt="Image 1">
+      </div>
+      <br>
+    </div>
+    <div class="collage-container">
+      <div class="collage-item">
+        <img src="image/ac3.jpg" alt="Image 2">
+      </div>
+    </div>
+
+
+
+  </section>
+  <script>
+    var navlinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "  -200px";
+    }
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Online Auction Website</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f4f4f4;
+         }
+ 
+         header {
+             background-color: #333;
+             color: #fff;
+             padding: 10px;
+             text-align: center;
+         }
+ 
+         #item-container {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-around;
+             margin: 20px;
+         }
+ 
+         .item {
+             max-width: 300px;
+             margin: 20px;
+             padding: 10px;
+             background-color: #fff;
+             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             text-align: center;
+         }
+ 
+         .item img {
+             max-width: 100%;
+             height: auto;
+         }
+ 
+         .item-status {
+             margin-top: 10px;
+             font-weight: bold;
+         }
+ 
+         .exclusive {
+             color: red;
+         }
+ 
+         .sold-out {
+             color: gray;
+         }
+ 
+         .bid-form {
+             margin-top: 10px;
+         }
+ 
+         .bid-input {
+             width: 80%;
+             padding: 5px;
+         }
+ 
+         .bid-button {
+             width: 18%;
+             padding: 5px;
+             background-color: #333;
+             color: #fff;
+             border: none;
+             cursor: pointer;
+         }
+     </style>
+ </head>
+ <body>
+ 
+     <header>
+         <h1>Bidding Items </h1>
+     </header>
+ 
+     <div id="item-container">
+         <div class="item">
+             <img src="image/item1.jpg" alt="Item 1">
+             <h2>1969 Ford Mustang Turbo Charged(Special upMod)</h2>
+             <h5>1st Item</h5>
+             <p>Current Bid: $50.00</p>
+             <p>Highest Bid: $60.00</p>
+             <p class="item-status sold-out">Sold Out</p>
+             <form class="bid-form">
+                 <input type="text" class="bid-input" placeholder="Enter new bid amount">
+                 <button type="button" class="bid-button">Place Bid</button>
+             </form>
+         </div>
+ 
+         <div class="item">
+             <img src="image/item2.jpg" alt="Item 2">
+             <h2>The Art of Phoneixnoah by Da Vinchi</h2>
+             <h5>2nd Item</h5>
+             <p>Current Bid: $30.00</p>
+             <p>Highest Bid: $40.00</p>
+             <p class="item-status">Available</p>
+             <form class="bid-form">
+                 <input type="text" class="bid-input" placeholder="Enter new bid amount">
+                 <button type="button" class="bid-button">Place Bid</button>
+             </form>
+         </div>
+ 
+         <div class="item">
+             <img src="image/item3.png" alt="Item 3">
+             <h2>Virat Kholi Signed bat during World Cup</h2>
+             <h5>3rd Item</h5>
+             <p>Current Bid: $80.00</p>
+             <p>Highest Bid: $90.00</p>
+             <p class="item-status exclusive">Exclusive</p>
+             <form class="bid-form">
+                 <input type="text" class="bid-input" placeholder="Enter new bid amount">
+                 <button type="button" class="bid-button">Place Bid</button>
+             </form>
+         </div>
+ 
+         <!-- New Item 4 -->
+         <div class="item">
+             <img src="image/gsdg.jpg" alt="Item 4">
+             <h2>Leonardo Da Vinci’s Codex Leicester</h2>
+             <h5>4th Item</h5>
+             <p>Current Bid: $40.00</p>
+             <p>Highest Bid: $50.00</p>
+             <p class="item-status">Available</p>
+             <form class="bid-form">
+                 <input type="text" class="bid-input" placeholder="Enter new bid amount">
+                 <button type="button" class="bid-button">Place Bid</button>
+             </form>
+         </div>
+ 
+         <!-- Add more items as needed -->
+     </div>
+ 
+ </body>
+ </html>
+ 
